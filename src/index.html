@@ -5,31 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edgar Esquivel Lujan</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/head.css">
+    <link rel="stylesheet" href="./css/title.css">
+    <link rel="stylesheet" href="./css/menu/menu.css">
+    <link rel="stylesheet" href="./css/menu/menu__list.css">
+    <link rel="stylesheet" href="./css/menu/menu__item.css">
+    <link rel="stylesheet" href="./css/menu/menu__link.css">
+    <link rel="stylesheet" href="./css/print.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/about-me/about-me.css">
+    <link rel="stylesheet" href="./css/filing/filing.css">
+    <link rel="stylesheet" href="./css/filing/filing__content.css">
+    <link rel="stylesheet" href="./css/filing/filing__image.css">
+    <link rel="stylesheet" href="./css/filing/filing__personal.css">
+    <link rel="stylesheet" href="./css/filing/filing__social.css">
+
+    <link rel="stylesheet" href="./assets/fonts/icoons.css">
+
+
+    <!--    link:css[href="./css/menu/"]*3    -->
+
+
 </head>
 <body>
-    <header>
-        <h1 class="title-page">Edgar Mauricio Esquive Lujan</h1>
-        <nav class="main__nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="" class="nav__link">Sobre mi</a></li>
-                <li class="nav__item"><a href="" class="nav__link">Pasa tiempo</a></li>
-                <li class="nav__item"><a href="" class="nav__link">Habilidades</a></li>
-                <li class="nav__item"><a href="" class="nav__link">Formacion</a></li>
-                <li class="nav__item"><a href="" class="nav__link">Proyectos</a></li>
-                <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+    <header class="head">
+        <h1 class="title">Edgar Mauricio Esquive Lujan</h1>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="" class="menu__link">Sobre mi</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Pasa tiempo</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Habilidades</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Formacion</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Proyectos</a></li>
+                <li class="menu__item"><a href="#contact" class="menu__link">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main class="container">
-        <section id="about-me" class="about-me">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore nulla maiores dignissimos ratione vitae similique debitis error, aliquid commodi sequi iusto soluta, eveniet asperiores nam ea enim recusandae omnis nostrum!</section>
-        <section id="hobbies" class="hobbies">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni inventore velit quam ad odit? Itaque cum debitis voluptatibus eligendi, neque placeat nemo commodi! Tenetur magnam quod iusto obcaecati hic? Placeat?</section>
-        <section id="skills" class="skills">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error debitis animi similique beatae. Nobis iusto tempora dicta distinctio eum est, magnam nostrum non, architecto, eos cumque obcaecati facilis repudiandae deserunt.</section>
-        <section id="education" class="education"></section>
-        <section id="experience" class="experience"></section>
-        <section id="contact" class="contact">
+    <main class="main">
+        <section id="filing" class="container filing">
+            <img src="./assets/image/edgar.png" alt="" class="filing__image">
+            <div class="filing__content">
+                <div class="filing__personal">
+                    <p>Hola mi nombre es <span class="filing__personal--name">Edgar Mauricio Esquivel Lujan</span> y Desarrollo paginas web.</p>
+                    <p>Tengo 27 años de edad  y vivo en la ciudad de México.</p>
+                    <p>Me gradué de la Licenciatura en Informática administrativa y actualmente participo en el proyecto Oracle One en Alura Latam.</p>
+                </div>
+                <div class="filing__social">
+                    <a href="https://github.com/edgarmel" target="_blank" class="filing__social__link"><i class="icon ico-git-hub"></i></a>
+                    <a href="https://www.linkedin.com/in/edgarmeln" target="_blank" class="filing__social__link"><i class="icon ico-linkedin"></i></a>
+                    <a href="https://www.instagram.com/edgarmelv" target="_blank" class="filing__social__link"><i class="icon ico-instagram"></i></a>
+                    <a href="#" target="_blank" class="filing__social__link"><i class="icon ico-pdf"></i></a>
+                </div>
+            </div>
+        </section>
+        <section id="about-me" class="container about-me">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore nulla maiores dignissimos ratione vitae similique debitis error, aliquid commodi sequi iusto soluta, eveniet asperiores nam ea enim recusandae omnis nostrum!</section>
+        <section  id="hobbies" class="container hobbies">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni inventore velit quam ad odit? Itaque cum debitis voluptatibus eligendi, neque placeat nemo commodi! Tenetur magnam quod iusto obcaecati hic? Placeat?</section>
+        <section id="skills" class="container skills">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error debitis animi similique beatae. Nobis iusto tempora dicta distinctio eum est, magnam nostrum non, architecto, eos cumque obcaecati facilis repudiandae deserunt.</section>
+        <section id="education" class="container education"></section>
+        <section id="experience" class="container experience"></section>
+        <section id="contact" class="container contact">
         </section>
     </main>
     <footer class="foot"></footer>
-    <button class="vitae">descargar</button>
 </body>
 </html>

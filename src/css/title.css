@@ -1,0 +1,7 @@
+.title{
+    flex-grow: 2;
+    font-family: sans-serif;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}

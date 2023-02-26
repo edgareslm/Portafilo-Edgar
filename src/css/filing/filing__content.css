@@ -1,0 +1,7 @@
+.filing__content{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding: 30px 20px;
+   
+}

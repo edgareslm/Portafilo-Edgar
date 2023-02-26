@@ -1,0 +1,19 @@
+@media print {
+    .head{
+        display:none;
+    }
+    @page { margin: 0; }
+
+    .filing__social{
+        flex-wrap: wrap;
+        gap:10px;
+    }
+        .filing__social__link[href^=http]::after{
+            content:" <" attr(href) ">";
+            font-size: 0.7rem;
+        }
+            .ico-pdf{
+                display: none;
+            }
+
+}

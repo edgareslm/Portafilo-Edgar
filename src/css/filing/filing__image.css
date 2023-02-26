@@ -1,0 +1,6 @@
+.filing__image{
+    height: 300px;
+    /* border-radius: 20%; */
+    clip-path: circle(40% at 50% 40%);
+    order:5;
+}

@@ -1,0 +1,8 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vmin;
+    padding: 10px;
+    background: var(--bkg-color-green);
+}
