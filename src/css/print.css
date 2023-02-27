@@ -8,10 +8,17 @@
         flex-wrap: wrap;
         gap:10px;
     }
+        .filing__social__link[href^=tel]::after,
         .filing__social__link[href^=http]::after{
             content:" <" attr(href) ">";
             font-size: 0.7rem;
         }
+
+        .filing__social__link[href*="wa.me"]::after{
+            /* content:" "; */
+            display:none;
+        }
+            .ico-whatsapp,
             .ico-pdf{
                 display: none;
             }

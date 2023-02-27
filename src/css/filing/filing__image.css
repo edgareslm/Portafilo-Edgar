@@ -1,13 +1,9 @@
 .filing__image{
-    width: 200px;
+    flex-grow: 1;
+    width: 40vmin;
+    height: 40vmin;
+    object-fit: cover;
+    object-position: 50% 50%;
     clip-path: circle(40% at 50% 40%);
     order:5;
 }
-
-/* .filing__image{
-    order:5;
-    width: 200px;
-    height: 200px;
-    clip-path: circle(50% at 50% 50%);
-    background:  url("../../assets/image/edgar.png") top center /cover;
-} */
