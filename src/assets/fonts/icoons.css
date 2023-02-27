@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('icomoon.eot?8dtalp');
-  src:  url('icomoon.eot?8dtalp#iefix') format('embedded-opentype'),
-    url('icomoon.ttf?8dtalp') format('truetype'),
-    url('icomoon.woff?8dtalp') format('woff'),
-    url('icomoon.svg?8dtalp#icomoon') format('svg');
+  src:  url('icomoon.eot?1iwq9a');
+  src:  url('icomoon.eot?1iwq9a#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?1iwq9a') format('truetype'),
+    url('icomoon.woff?1iwq9a') format('woff'),
+    url('icomoon.svg?1iwq9a#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,93 +25,114 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ico-calendar:before {
+.ico-mysql:before {
   content: "\e900";
 }
-.ico-code:before {
+.ico-skills:before {
   content: "\e901";
 }
-.ico-css:before {
+.ico-edication:before {
   content: "\e902";
 }
-.ico-edication:before {
+.ico-css:before {
   content: "\e903";
 }
-.ico-email:before {
+.ico-sofware:before {
   content: "\e904";
 }
-.ico-git:before {
+.ico-html:before {
   content: "\e905";
 }
-.ico-git-hub:before {
+.ico-node:before {
   content: "\e906";
 }
-.ico-habilities:before {
+.ico-php:before {
   content: "\e907";
 }
-.ico-hability:before {
+.ico-teamwork:before {
   content: "\e908";
 }
-.ico-html:before {
+.ico-job:before {
   content: "\e909";
 }
-.ico-instagram:before {
+.ico-setting:before {
   content: "\e90a";
 }
-.ico-javascript:before {
+.ico-pdf:before {
   content: "\e90b";
 }
-.ico-job:before {
+.ico-hobbie:before {
   content: "\e90c";
 }
-.ico-laptop:before {
+.ico-run:before {
   content: "\e90d";
 }
-.ico-linkedin:before {
+.ico-adaptability:before {
   content: "\e90e";
 }
-.ico-music:before {
+.ico-solving:before {
   content: "\e90f";
 }
-.ico-mysql:before {
+.ico-habilities:before {
   content: "\e910";
 }
-.ico-node:before {
+.ico-soccer:before {
   content: "\e911";
 }
-.ico-pdf:before {
+.ico-laptop:before {
   content: "\e912";
 }
-.ico-php:before {
+.ico-git-hub:before {
   content: "\e913";
 }
-.ico-program:before {
+.ico-work:before {
   content: "\e914";
 }
-.ico-run:before {
+.ico-creativity:before {
   content: "\e915";
 }
-.ico-setting:before {
+.ico-working:before {
   content: "\e916";
 }
 .ico-skill:before {
   content: "\e917";
 }
-.ico-skills:before {
+.ico-whatsapp:before {
   content: "\e918";
 }
-.ico-soccer:before {
+.ico-instagram:before {
   content: "\e919";
 }
-.ico-sofware:before {
+.ico-honesty:before {
   content: "\e91a";
 }
-.ico-whatsapp:before {
+.ico-aptitude:before {
   content: "\e91b";
 }
-.ico-work:before {
+.ico-music:before {
   content: "\e91c";
 }
-.ico-working:before {
+.ico-javascript:before {
   content: "\e91d";
+}
+.ico-git:before {
+  content: "\e91e";
+}
+.ico-calendar:before {
+  content: "\e91f";
+}
+.ico-program:before {
+  content: "\e920";
+}
+.ico-code:before {
+  content: "\e921";
+}
+.ico-linkedin:before {
+  content: "\e922";
+}
+.ico-email:before {
+  content: "\e923";
+}
+.ico-time:before {
+  content: "\e924";
 }

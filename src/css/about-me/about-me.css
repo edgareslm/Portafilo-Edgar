@@ -1,5 +1,8 @@
 .about-me{
     flex-grow: 1;
-    flex-basis: 30vh;
-    height: ;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    row-gap:10px;
+    text-align: justify;
 }

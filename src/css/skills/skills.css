@@ -1,0 +1,7 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gab:40px;
+    padding: 20px;
+}

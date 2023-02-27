@@ -1,0 +1,10 @@
+.skills__item{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__item--description{
+    font-size: 1.5rem;
+}

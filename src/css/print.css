@@ -15,5 +15,11 @@
             .ico-pdf{
                 display: none;
             }
+    .education__logo{
+        print-color-adjust:exact;
+                -webkit-print-color-adjust:exact;
+                -moz-print-color-adjust:economy;
+        box-shadow: none;
+    }
 
 }
