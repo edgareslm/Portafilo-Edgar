@@ -1,0 +1,18 @@
+.experience__link{
+    display: inline-block;
+    width: 10rem;
+    padding: 1rem;
+    background: #ddd;
+    outline: none;
+    border: nene;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.experience__link:hover{
+    box-shadow:2px 2px 4px -1px #000;
+}
