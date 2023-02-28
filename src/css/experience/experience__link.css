@@ -4,13 +4,14 @@
     padding: 1rem;
     background: #ddd;
     outline: none;
-    border: nene;
+    border: none;
     border-radius: 5px;
     text-align: center;
     font-size: 1rem;
     box-sizing: border-box;
     text-decoration: none;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .experience__link:hover{

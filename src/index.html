@@ -44,6 +44,15 @@
     <link rel="stylesheet" href="./css/experience/experience__link.css">
     <link rel="stylesheet" href="./css/experience/experience__project.css">
 
+    <link rel="stylesheet" href="./css/contact/contact.css">
+    <link rel="stylesheet" href="./css/contact/contact__image.css">
+    <link rel="stylesheet" href="./css/contact/contact__form.css">
+    <link rel="stylesheet" href="./css/contact/contact__label.css">
+    <link rel="stylesheet" href="./css/contact/contact__input.css">
+    <link rel="stylesheet" href="./css/contact/contact__button.css"> 
+
+
+    <link rel="stylesheet" href="./css/foot.css">
 
     <link rel="stylesheet" href="./assets/fonts/icoons.css">
 
@@ -71,9 +80,11 @@
             <img src="./assets/image/edgar.png" alt="imagen de perfil" class="filing__image">
             <div class="filing__content">
                 <div class="filing__personal">
-                    <p>Hola mi nombre es <span class="filing__personal--name">Edgar Mauricio Esquivel Lujan</span> y Desarrollo paginas web.</p>
+                    <p class="filing__personal__greet">!Hola bienvenido a mi perfil¡</p>
+                    <p class="filing__personal__greet">Mi nombre es Edgar</p>
+                    <p>Me especializo en el <span class="filing__personal__field">Desarrollo Frond-End</span> </p>
                     <p>Tengo 27 años de edad  y vivo en la ciudad de México.</p>
-                    <p>Me gradué de la Licenciatura en Informática administrativa y actualmente participo en el proyecto Oracle One en Alura Latam.</p>
+                    <p>Actualmente participo en el proyecto Oracle One en Alura Latam.</p>
                 </div>
                 <div class="filing__social">
                     <a href="https://github.com/edgarmel" target="_blank" class="filing__social__link"><i class="icon ico-git-hub"></i></a>
@@ -226,16 +237,18 @@
             </div>
         </section>
         <section id="contact" class="main__container contact">
-            <div class="contact__image"></div>
-            <!-- <img src="" alt=""> -->
+            <img class="contact__image" src="./assets/image/email.png" alt="">
             <div class="contact__form">
-                <label for="nameCustomer">
-                    Nombre Completo
-                    <input type="text" name="customer" id="nameCustomer">
-                </label>
+                <label for="nameCustomer">Nombre completo</label>
+                <input type="text" name="customer" id="nameCustomer">
+                <label for="emailCustomer">Correo electronico</label>
+                <input type="email" name="email" class="email" id="emailCustomer">
+                <input type="text" name="asunto" id="as">
+                <textarea name="mensaje" id="mensaje" class="mensaje" cols="30" rows="10"></textarea>
+
             </div>
         </section>
     </main>
-    <footer class="foot"></footer>
+    <footer class="foot"><p>Edgar Mauricio Esquivel Lujan</p><p>2023</p></footer>
 </body>
 </html>

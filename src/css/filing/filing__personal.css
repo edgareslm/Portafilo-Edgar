@@ -5,6 +5,11 @@
     row-gap:10px;
 }
 
-.filing__personal--name{
-    font-weight: bold;
-}
+    .filing__personal__greet{
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .filing__personal__field{
+        font-weight: bold;
+    }
