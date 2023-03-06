@@ -1,0 +1,16 @@
+.education__name{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.education__space{
+    text-align: center;
+    word-wrap: breack-word;
+    padding:1rem 2rem;
+}
+
+.education__name--alura{
+    font-size: 1.7rem;
+    text-decoration: none;
+}

@@ -1,0 +1,6 @@
+.contact__form{
+    background: #ddd;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?xfmmn8');
+  src:  url('icomoon.eot?xfmmn8#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?xfmmn8') format('truetype'),
+    url('icomoon.woff?xfmmn8') format('woff'),
+    url('icomoon.svg?xfmmn8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-mysql:before {
+  content: "\e900";
+}
+.ico-skills:before {
+  content: "\e901";
+}
+.ico-edication:before {
+  content: "\e902";
+}
+.ico-css:before {
+  content: "\e903";
+}
+.ico-sofware:before {
+  content: "\e904";
+}
+.ico-html:before {
+  content: "\e905";
+}
+.ico-node:before {
+  content: "\e906";
+}
+.ico-php:before {
+  content: "\e907";
+}
+.ico-teamwork:before {
+  content: "\e908";
+}
+.ico-job:before {
+  content: "\e909";
+}
+.ico-setting:before {
+  content: "\e90a";
+}
+.ico-pdf:before {
+  content: "\e90b";
+}
+.ico-hobbie:before {
+  content: "\e90c";
+}
+.ico-run:before {
+  content: "\e90d";
+}
+.ico-adaptability:before {
+  content: "\e90e";
+}
+.ico-solving:before {
+  content: "\e90f";
+}
+.ico-habilities:before {
+  content: "\e910";
+}
+.ico-soccer:before {
+  content: "\e911";
+}
+.ico-laptop:before {
+  content: "\e912";
+}
+.ico-git-hub:before {
+  content: "\e913";
+}
+.ico-work:before {
+  content: "\e914";
+}
+.ico-creativity:before {
+  content: "\e915";
+}
+.ico-working:before {
+  content: "\e916";
+}
+.ico-skill:before {
+  content: "\e917";
+}
+.ico-whatsapp:before {
+  content: "\e918";
+}
+.ico-instagram:before {
+  content: "\e919";
+}
+.ico-honesty:before {
+  content: "\e91a";
+}
+.ico-aptitude:before {
+  content: "\e91b";
+}
+.ico-music:before {
+  content: "\e91c";
+}
+.ico-javascript:before {
+  content: "\e91d";
+}
+.ico-git:before {
+  content: "\e91e";
+}
+.ico-calendar:before {
+  content: "\e91f";
+}
+.ico-program:before {
+  content: "\e920";
+}
+.ico-code:before {
+  content: "\e921";
+}
+.ico-linkedin:before {
+  content: "\e922";
+}
+.ico-email:before {
+  content: "\e923";
+}
+.ico-phone:before {
+  content: "\e924";
+}
+.ico-time:before {
+  content: "\e925";
+}

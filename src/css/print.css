@@ -1,0 +1,32 @@
+@media print {
+    .head{
+        display:none;
+    }
+    @page { margin: 0; }
+
+    .filing__social{
+        flex-wrap: wrap;
+        gap:10px;
+    }
+        .filing__social__link[href^=tel]::after,
+        .filing__social__link[href^=http]::after{
+            content:" <" attr(href) ">";
+            font-size: 0.7rem;
+        }
+
+        .filing__social__link[href*="wa.me"]::after{
+            /* content:" "; */
+            display:none;
+        }
+            .ico-whatsapp,
+            .ico-pdf{
+                display: none;
+            }
+    .education__logo{
+        print-color-adjust:exact;
+                -webkit-print-color-adjust:exact;
+                -moz-print-color-adjust:economy;
+        box-shadow: none;
+    }
+
+}

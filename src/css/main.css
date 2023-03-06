@@ -1,0 +1,9 @@
+.main{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__container:nth-child(even){
+    background-color: var(--bkg-color-green);
+}

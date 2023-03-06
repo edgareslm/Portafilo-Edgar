@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    border-style: none;
+    box-sizing: border-box;
+    color: #254344;
+}
+
+:root{
+    font-family: sans-serif;
+    font-size: 16px;
+    --bkg-color-green: #E5FDD1;
+    --bkg-color-grays: #EDEDED;   
+}
+
+body{
+    background: var(--bkg-color-grays);
+}

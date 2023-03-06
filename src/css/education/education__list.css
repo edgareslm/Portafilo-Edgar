@@ -1,0 +1,8 @@
+.education__list{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type:none;
+    gap:2rem;
+}

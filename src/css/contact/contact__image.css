@@ -1,0 +1,7 @@
+.contact__image{
+    background: #fff;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border: 1px solid #000;
+    clip-path: inset(10% round 20%);
+}
