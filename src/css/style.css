@@ -3,16 +3,19 @@
     padding:0;
     border-style: none;
     box-sizing: border-box;
-    color: #254344;
 }
 
 :root{
     font-family: sans-serif;
     font-size: 16px;
-    --bkg-color-green: #E5FDD1;
-    --bkg-color-grays: #EDEDED;   
+    --bkg-color-ligth: #E0E0E0;
+    --bkg-color-dark: #497174;
+    --bkg-color-black: #434242;
+    --txt-color-ligth: #EFF5F5;
+    --txt-color-dark: #254344;
+    --txt-color-black: #000000;
 }
 
 body{
-    background: var(--bkg-color-grays);
+    background:beige;
 }

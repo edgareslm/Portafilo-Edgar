@@ -1,0 +1,16 @@
+.input{
+    width: 100%;
+    height: 2rem;
+    font-size: 1.5rem;
+    padding: 1px;
+    border:none;
+    outline: none;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #00000000;
+    border-bottom: 2px solid var(--txt-color-ligth);
+    color: var(--txt-color-ligth);
+    position: relative;
+    z-index: 5;
+    order: 2;
+}

@@ -3,3 +3,6 @@
     display: flex;
     justify-content: space-around;
 }
+.filing--variant{
+    color: var(--txt-color-black);
+}

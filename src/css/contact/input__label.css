@@ -1,0 +1,15 @@
+.input__label{
+   position: relative;
+   top:1.7rem;
+   z-index: 2;
+   font-size: 1.7rem;
+   order: 1;
+   transition: all 0.2s;
+}
+
+.input:focus +
+.input__label{
+    top:0;
+    font-size: 1rem;
+    transition: all 0.25s;
+}

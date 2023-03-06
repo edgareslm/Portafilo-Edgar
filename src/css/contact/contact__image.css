@@ -1,7 +1,9 @@
 .contact__image{
-    background: #fff;
-    object-fit: cover;
-    object-position: 50% 50%;
-    border: 1px solid #000;
+    flex-shrink: 4;
+    height: 40vmax;
+    width: 40vmax;
+    background: #fff url("../../assets/image/email.png") center /cover no-repeat;
     clip-path: inset(10% round 20%);
+    border-radius: 20%;
+    filter: hue-rotate(170deg) grayscale(.8);
 }

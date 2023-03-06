@@ -3,6 +3,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    list-style-type:none;
     gap:2rem;
+}
+.education__list--variant{
+    color: var(--txt-color-black);
+    list-style-type:none;
 }

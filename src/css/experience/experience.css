@@ -1,3 +1,7 @@
 .experience{
     padding: 10px;
 }
+
+.experience--variant{
+    color: var(--txt-color-black);
+}

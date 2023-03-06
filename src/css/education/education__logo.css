@@ -12,11 +12,11 @@
 }
 
 .education__logo--one{
-     background: #fff url("../../assets/image/oracle-logo.png") center /cover no-repeat scroll padding-box border-box;
+     background: var(--bkg-color-ligth) url("../../assets/image/oracle-logo.png") center /cover no-repeat scroll padding-box border-box;
 }
 .education__logo--uaem{
-    background: #fff url("../../assets/image/uaem-logo.png") center /cover no-repeat scroll padding-box border-box;
+    background: var(--bkg-color-ligth) url("../../assets/image/uaem-logo.png") center /cover no-repeat scroll padding-box border-box;
 }
 .education__logo--cecytem{
-    background: #fff url("../../assets/image/cecytem-logo.png") center /cover no-repeat scroll padding-box border-box;
+    background: var(--bkg-color-ligth) url("../../assets/image/cecytem-logo.png") center /cover no-repeat scroll padding-box border-box;
 }

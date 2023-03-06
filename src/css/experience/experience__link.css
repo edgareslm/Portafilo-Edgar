@@ -2,7 +2,7 @@
     display: inline-block;
     width: 10rem;
     padding: 1rem;
-    background: #ddd;
+    background: var(--bkg-color-black);
     outline: none;
     border: none;
     border-radius: 5px;
@@ -12,6 +12,8 @@
     text-decoration: none;
     margin-right: 10px;
     margin-bottom: 10px;
+    color: var(--txt-color-ligth);
+
 }
 
 .experience__link:hover{

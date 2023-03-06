@@ -1,3 +1,7 @@
 .education{
     padding: 10px;
 }
+
+.education--variant{
+    color: var(--txt-color-ligth);
+}

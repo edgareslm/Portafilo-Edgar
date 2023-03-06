@@ -4,9 +4,12 @@
     align-items: flex-end;
     height: 10vmin;
     padding: 10px;
-    background: var(--bkg-color-green);
     position:sticky;
     top: 0;
     z-index: 10;
-    filter:opacity(0.95)
+}
+.head--variant{
+    filter:opacity(0.95);
+    background: var(--bkg-color-dark);
+    color: var(--txt-color-ligth);
 }

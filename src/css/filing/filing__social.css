@@ -8,6 +8,7 @@
     vertical-align: bottom;
 }
 .filing__social__link{
+    color: var(--txt-color-black);
     text-decoration: none;
 }
 .filing__social__link:hover{

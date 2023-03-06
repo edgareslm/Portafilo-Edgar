@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    row-gab:40px;
+    gap:40px;
     padding: 20px;
+}
+
+.skills--variant{
+    color: var(--txt-color-black);
 }

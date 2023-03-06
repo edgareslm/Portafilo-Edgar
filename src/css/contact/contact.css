@@ -1,7 +1,11 @@
 .contact{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    font-size: 1.7rem;
-
+    padding: 30px;
+    gap: 30px;
+}
+.contact--variant{
+    color: var(--txt-color-black);
+    font-size: 2rem;
 }

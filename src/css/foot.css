@@ -1,6 +1,11 @@
 .foot{
     font-size: 2rem;
-    height: 10vh;
     text-align: center;
     padding: 20px;
+    
+}
+
+.foot--variant{
+    background: var(--bkg-color-black);
+    color: var(--txt-color-ligth);
 }
