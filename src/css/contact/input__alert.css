@@ -1,0 +1,14 @@
+.input__alert{
+    display: none;
+    font-size: 1rem;
+    order:5;
+    color: rgb(237, 213, 54);
+}
+.input__alert::before{
+    content:"\2622";
+    margin-right: 2px;
+}
+
+.input__alert--active{
+    display: inline-block;
+}

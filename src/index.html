@@ -52,7 +52,7 @@
     <link rel="stylesheet" href="./css/contact/input__label.css"> 
     <link rel="stylesheet" href="./css/contact/input.css"> 
     <link rel="stylesheet" href="./css/contact/input__message.css">
-    <link rel="stylesheet" href="./css/contact/input__error.css">
+    <link rel="stylesheet" href="./css/contact/input__alert.css">
 
 
     <link rel="stylesheet" href="./css/foot.css">
@@ -62,6 +62,7 @@
 
     <!--    link:css[href="./css/menu/"]*3    -->
 
+    <script src="./js/validacion__form.js" async type=""></script>
 
 </head>
 <body>
@@ -243,21 +244,21 @@
             <div class="contact__image"></div>
             <form action="" class="contact__form">
                 <div class="input__container">
-                    <input type="text" name="customer" id="nameCustomer" class="input">
+                    <input type="text" name="customer" id="nameCustomer" class="input" required data-type="name" placeholder="No valido">
                     <label for="nameCustomer" class="input__label">Nombre completo</label>
-                    <div class="input__error">El campo no puede estar vacio</div>
+                    <span class="input__alert">El campo no puede estar vacio</span>
                 </div>
                 <div class="input__container">
-                    <input type="email" name="email" id="emailCustomer" class="input">
+                    <input type="email" name="email" id="emailCustomer" class="input" required data-type="email" placeholder="No valido">
                     <label for="emailCustomer" class="input__label">Correo electronico</label>
-                    <div class="input__error">El campo no puede estar vacio</div>
+                    <span class="input__alert">El campo no puede estar vacio</span>
                 </div>
                 <div class="input__container">
-                    <input type="email" name="subject"  id="subject" class="input">
+                    <input type="text" name="subject"  id="subject" class="input" required data-type="subject" placeholder="No valido">
                     <label for="subjectCustomer" class="input__label">Asunto</label>
-                    <div class="input__error">El campo no puede estar vacio</div>
+                    <span class="input__alert">El campo no puede estar vacio</span>
                 </div>
-                <textarea name="mensaje" id="mensaje" class="input__message" cols="30" rows="10" placeholder="Escribe aqui un mensaje"></textarea>
+                <textarea name="mensaje" id="mensaje" class="input__message" cols="30" rows="10" placeholder="Escribe aqui un mensaje" data-type="message"></textarea>
             </form>
         </section>
     </main>

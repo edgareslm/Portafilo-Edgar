@@ -3,4 +3,12 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 10px;
+}
+
+.input__container--invalid .input{
+    outline: 2px solid red;
+    border-radius: 10px;
+    padding-bottom: 0;
+    border: none;
 }
