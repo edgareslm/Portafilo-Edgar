@@ -1,5 +1,5 @@
 window.onload= function(){
-    const element_inputs = document.querySelectorAll(".input");
+    const element_inputs = document.querySelectorAll(".contact__input");
 
     element_inputs.forEach(
         (input)=>{
@@ -10,15 +10,15 @@ window.onload= function(){
     function SelectionInput(input){
         let type_input = input.dataset?.type;
         let input_parent = input.parentNode;
-        let input_alert = input_parent.querySelector(".input__alert");
+        let input_alert = input_parent.querySelector(".contact__alert");
         if(input.validity.valid){
-            input_parent.classList.remove("input__container--invalid");
+            input.classList.remove("contact__input--invalid");
             input_alert.innerHTML=showErrorMessage(input,type_input);
-            input_alert.classList.remove("input__alert--active");
+            input_alert.classList.remove("contact__alert--active");
         }else{
-            input_parent.classList.add("input__container--invalid");
-            input.parentElement.querySelector(".input__alert").innerHTML=showErrorMessage(input,type_input);
-            input_alert.classList.add("input__alert--active");
+            input.classList.add("contact__input--invalid");
+            input.parentElement.querySelector(".contact__alert").innerHTML=showErrorMessage(input,type_input);
+            input_alert.classList.add("contact__alert--active");
         }
     }
 

@@ -1,0 +1,9 @@
+.contact__label{
+    position: absolute;
+    font-size: 1rem;
+    color: var(--txt-color-first);
+    transform: translateY(1.2rem);
+    transition: all .25s;
+    z-index: 10;
+    padding-left: 10px;
+}

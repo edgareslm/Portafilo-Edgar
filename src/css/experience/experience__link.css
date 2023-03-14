@@ -2,7 +2,7 @@
     display: inline-block;
     width: 10rem;
     padding: 1rem;
-    background: var(--bkg-color-black);
+    background: var(--bkg-color-dark);
     outline: none;
     border: none;
     border-radius: 5px;

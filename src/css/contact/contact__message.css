@@ -1,0 +1,26 @@
+.contact__message{
+    order: 2;
+    width: 100%;
+    resize: none;
+    outline: none;
+    background: #ffffff00;
+    border: 2px solid var(--txt-color-ligth);
+    padding: 15px;
+    font-size: 1.2rem;
+    color: var(--txt-color-ligth);
+}
+
+.contact__message::placeholder{
+    visibility: hidden;
+    background: #ffffff00;
+    color: #00000000;
+}
+
+
+.contact__message:not(:placeholder-shown) + .contact__label,
+.contact__message:focus + .contact__label{
+    transform: translateY(.2rem);
+    font-size: 0.7rem;
+    font-weight: bold;
+    transition: all .25s;
+}

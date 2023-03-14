@@ -1,0 +1,17 @@
+.contact__alert{
+    display: none;
+    font-size: 0.7rem;
+    font-weight: lighter;
+    text-decoration: underline;
+    color: var(--txt-color-second);
+    order: 5;
+}
+.contact__alert::before{
+    content:"\2622";
+    margin-right: 2px;
+}
+
+.contact__alert--active{
+    display: inline-block;
+    color: rgb(238, 181, 75);
+}

@@ -1,0 +1,18 @@
+.contact__submit{
+    align-self: stretch;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background: var(--bkg-color-ligth,#777);
+    color: var(--txt-color-dark);
+    font-weight: bold;
+    transition: all .2s;
+}
+
+.contact__submit:hover{
+    transform: scaleY(1.1);
+    transition: all .25s ease-in-out;
+    color: var(--txt-color-ligth);
+    background: var(--bkg-color-dark);
+}

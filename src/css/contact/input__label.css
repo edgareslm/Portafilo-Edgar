@@ -4,14 +4,14 @@
    height: 3rem;
    padding: 10px;
    z-index: 2;
-   font-size: 1.5rem;
+   font-size: 1rem;
    order: 1;
    transition: all 0.2s;
    padding-left: 10px;
 }
 
-.input:not(:placeholder-shown) + .input__label,
-.input:focus + .input__label 
+.contact__input:not(:placeholder-shown) + .input__label,
+.contact__input:focus + .input__label 
 {
     top:0;
     font-size: 1.2rem;

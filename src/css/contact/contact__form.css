@@ -1,11 +1,12 @@
 .contact__form{
     flex-shrink: 1;
-    flex-grow: 1;
+    width: 50%;
     background: var(--bkg-color-black);
     color:var(--txt-color-ligth);
     border-radius: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap:20px;
+    align-items: center;
+    gap:10px;
 }

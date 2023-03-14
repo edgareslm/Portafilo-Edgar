@@ -47,12 +47,12 @@
     <link rel="stylesheet" href="./css/contact/contact.css">
     <link rel="stylesheet" href="./css/contact/contact__image.css">
     <link rel="stylesheet" href="./css/contact/contact__form.css">
-    <link rel="stylesheet" href="./css/contact/contact__button.css">
-    <link rel="stylesheet" href="./css/contact/input__container.css">
-    <link rel="stylesheet" href="./css/contact/input__label.css"> 
-    <link rel="stylesheet" href="./css/contact/input.css"> 
-    <link rel="stylesheet" href="./css/contact/input__message.css">
-    <link rel="stylesheet" href="./css/contact/input__alert.css">
+    <link rel="stylesheet" href="./css/contact/contact__set.css">
+    <link rel="stylesheet" href="./css/contact/contact__input.css">
+    <link rel="stylesheet" href="./css/contact/contact__label.css">
+    <link rel="stylesheet" href="./css/contact/contact__alert.css">
+    <link rel="stylesheet" href="./css/contact/contact__message.css">
+    <link rel="stylesheet" href="./css/contact/contact__submit.css">
 
 
     <link rel="stylesheet" href="./css/foot.css">
@@ -86,7 +86,7 @@
                 <div class="filing__personal">
                     <p class="filing__personal__greet">!Hola bienvenido a mi perfil¡</p>
                     <p class="filing__personal__greet">Mi nombre es Edgar</p>
-                    <p>Me especializo en el <span class="filing__personal__field">Desarrollo Frond-End</span> </p>
+                    <p>Soy <span class="filing__personal__field">Front End Developer</span> </p>
                     <p>Tengo 27 años de edad  y vivo en la ciudad de México.</p>
                     <p>Actualmente participo en el proyecto Oracle One en Alura Latam.</p>
                 </div>
@@ -106,7 +106,7 @@
                 Durante mis años en la universidad estuve realizando prácticas como soporte técnico llevando acabo el mantenimiento preventivo y correctivo de los equipos de cómputo e impresoras. En el último año para concluir mi licenciatura me integre al área de sistemas en el Ayuntamiento del municipio de Temascaltepec como parte de mi servicio social donde me encargaba de la instalación de software a los equipos de cómputo, configuración de puntos de acceso y el cableado estructurado para la red de área local.
             </p>
             <p class="about-me__record">
-                AL finalizar mis estudios decidí llevar a cabo mis prácticas profesionales en el IMIEM hospital de Ginecología y obstetricia. Durante ese periodo apoye en el área de informática atendiendo solicitudes de soporte técnico, dando mantenimiento de preventivo y correctivo a los equipos de cómputo, y test de la red de area local.
+                AL finalizar mis estudios decidí llevar a cabo mis prácticas profesionales en el IMIEM hospital de Ginecología y obstetricia. Durante ese periodo apoye en el área de informática atendiendo solicitudes de soporte técnico, dando mantenimiento de preventivo y correctivo a los equipos de cómputo, y test a la red de area local.
             </p>
         </section>
         <section id="skills" class="main__container skills skills--variant">
@@ -217,8 +217,8 @@
                 <div class="experience__card">
                     <h4 class="experience__title">Encriptador de texto</h4>
                     <p class="experience__site">Challenge Oracle</p>
-                    <a href="" class="experience__link">Repositorio</a>
-                    <a href="" class="experience__link">Ver demo</a>
+                    <a href="https://github.com/edgarmel/encirptador-alura" target="_blank" class="experience__link">Repositorio</a>
+                    <a href="https://edgarmel.github.io/encirptador-alura/" target="_blank" class="experience__link">Ver demo</a>
                 </div>
             </div>
             <div class="experience__project">
@@ -243,22 +243,26 @@
         <section id="contact" class="main__container contact contact--variant">
             <div class="contact__image"></div>
             <form action="" class="contact__form">
-                <div class="input__container">
-                    <input type="text" name="customer" id="nameCustomer" class="input" required data-type="name" placeholder="No valido">
-                    <label for="nameCustomer" class="input__label">Nombre completo</label>
-                    <span class="input__alert">El campo no puede estar vacio</span>
-                </div>
-                <div class="input__container">
-                    <input type="email" name="email" id="emailCustomer" class="input" required data-type="email" placeholder="No valido">
-                    <label for="emailCustomer" class="input__label">Correo electronico</label>
-                    <span class="input__alert">El campo no puede estar vacio</span>
-                </div>
-                <div class="input__container">
-                    <input type="text" name="subject"  id="subject" class="input" required data-type="subject" placeholder="No valido">
-                    <label for="subjectCustomer" class="input__label">Asunto</label>
-                    <span class="input__alert">El campo no puede estar vacio</span>
-                </div>
-                <textarea name="mensaje" id="mensaje" class="input__message" cols="30" rows="10" placeholder="Escribe aqui un mensaje" data-type="message"></textarea>
+                <fieldset class="contact__set">
+                    <input type="text" name="name" id="name" class="contact__input" placeholder="nombre" required data-type="name">
+                    <label for="name" class="contact__label">Nombre</label>
+                    <span class="contact__alert">El campo no puede estar vacio</span>
+                  </fieldset>
+                  <fieldset class="contact__set">
+                    <input type="email" name="email" id="email" class="contact__input" placeholder="correo" required data-type="email">
+                    <label for="email"class="contact__label">Correo de contacto</label>
+                    <span class="contact__alert">El campo no puede estar vacio</span>
+                  </fieldset>
+                  <fieldset class="contact__set">
+                    <input type="text" name="subject" id="subject" class="contact__input" placeholder="asunto" required data-type="subject">
+                    <label for="subject"class="contact__label">Asunto</label>
+                    <span class="contact__alert">El campo no puede estar vacio</span>
+                  </fieldset>
+                  <fieldset class="contact__set">
+                    <textarea name="message" id="message" cols="30" rows="10" class="contact__message" placeholder="Escribe aqui un mensaje"></textarea>
+                    <label for="message"class="contact__label">Escriba aqui un mensaje</label>
+                  </fieldset>
+                  <input type="submit" value="Enviar" class="contact__submit">
             </form>
         </section>
     </main>

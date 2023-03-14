@@ -1,3 +1,4 @@
 .experience__image{
     width: 90vmin;
+    border: 5px solid var(--bkg-color-dark);
 }
