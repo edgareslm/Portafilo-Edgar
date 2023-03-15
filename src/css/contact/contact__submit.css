@@ -4,15 +4,25 @@
     outline: none;
     border: none;
     border-radius: 20px;
+}
+
+.contact__submit:enabled{
     background: var(--bkg-color-ligth,#777);
     color: var(--txt-color-dark);
     font-weight: bold;
     transition: all .2s;
 }
-
 .contact__submit:hover{
     transform: scaleY(1.1);
     transition: all .25s ease-in-out;
     color: var(--txt-color-ligth);
     background: var(--bkg-color-dark);
+}
+
+.contact__submit:disabled{
+    background: #77777777;
+    color: var(--txt-color-dark);
+    color:#00000077;
+    transition: none;
+    transform: none;
 }

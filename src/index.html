@@ -51,7 +51,7 @@
     <link rel="stylesheet" href="./css/contact/contact__input.css">
     <link rel="stylesheet" href="./css/contact/contact__label.css">
     <link rel="stylesheet" href="./css/contact/contact__alert.css">
-    <link rel="stylesheet" href="./css/contact/contact__message.css">
+    <link rel="stylesheet" href="./css/contact/contact__input--message.css">
     <link rel="stylesheet" href="./css/contact/contact__submit.css">
 
 
@@ -242,9 +242,9 @@
         </section>
         <section id="contact" class="main__container contact contact--variant">
             <div class="contact__image"></div>
-            <form action="" class="contact__form">
+            <form action="" class="contact__form" autocomplete="off">
                 <fieldset class="contact__set">
-                    <input type="text" name="name" id="name" class="contact__input" placeholder="nombre" required data-type="name">
+                    <input type="text" name="name" id="name" class="contact__input" placeholder="nombre" pattern="^[A-Za-z]{3,50}?" required data-type="name">
                     <label for="name" class="contact__label">Nombre</label>
                     <span class="contact__alert">El campo no puede estar vacio</span>
                   </fieldset>
@@ -254,15 +254,16 @@
                     <span class="contact__alert">El campo no puede estar vacio</span>
                   </fieldset>
                   <fieldset class="contact__set">
-                    <input type="text" name="subject" id="subject" class="contact__input" placeholder="asunto" required data-type="subject">
+                    <input type="text" name="subject" id="subject" class="contact__input" placeholder="asunto" pattern="^.{5,50}?" required data-type="subject">
                     <label for="subject"class="contact__label">Asunto</label>
                     <span class="contact__alert">El campo no puede estar vacio</span>
                   </fieldset>
                   <fieldset class="contact__set">
-                    <textarea name="message" id="message" cols="30" rows="10" class="contact__message" placeholder="Escribe aqui un mensaje"></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10" class="contact__input contact__input--message" placeholder="Escribe aqui un mensaje"  maxlength="300" pattern="[a-z]{5,50}" required data-type="message"></textarea>
                     <label for="message"class="contact__label">Escriba aqui un mensaje</label>
+                    <span class="contact__alert">El campo no puede estar vacio</span>
                   </fieldset>
-                  <input type="submit" value="Enviar" class="contact__submit">
+                  <input type="submit" value="Enviar" class="contact__submit" data-type="submit">
             </form>
         </section>
     </main>
