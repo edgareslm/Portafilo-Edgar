@@ -13,18 +13,3 @@
 .contact__input--invalid{
     border: 3px solid red;
 }
-
-/* .contact__input--message::placeholder{
-    visibility: hidden;
-    background: #ffffff00;
-    color: #00000000;
-}
-
-
-.contact__input--message:not(:placeholder-shown) + .contact__label,
-.contact__input--message:focus + .contact__label{
-    transform: translateY(.2rem);
-    font-size: 0.7rem;
-    font-weight: bold;
-    transition: all .25s;
-} */

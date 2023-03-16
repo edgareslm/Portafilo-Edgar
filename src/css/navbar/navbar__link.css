@@ -1,10 +1,10 @@
-.menu__link{
+.navbar__link{
     color: var(--txt-color-ligth);
     text-decoration: none;
     font-weight: bold;
 }
 
-.menu__link:hover{
+.navbar__link:hover{
     text-decoration: underline;
     font-weight: normal;
 }

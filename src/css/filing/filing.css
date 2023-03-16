@@ -6,3 +6,9 @@
 .filing--variant{
     color: var(--txt-color-dark);
 }
+
+@media screen and (max-width:480px) {
+    .filing--variant{
+        flex-direction: column-reverse;
+    }
+}

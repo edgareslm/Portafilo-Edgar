@@ -7,6 +7,7 @@
 }
 
 .contact__submit:enabled{
+    cursor:pointer;
     background: var(--bkg-color-ligth,#777);
     color: var(--txt-color-dark);
     font-weight: bold;

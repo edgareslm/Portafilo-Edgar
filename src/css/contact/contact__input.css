@@ -11,6 +11,11 @@
     padding-bottom: 0;
 }
 
+.contact__input:-webkit-autofill,
+.contact__input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
 .contact__input::placeholder{
     visibility: hidden;
     background: #ffffff00;

@@ -5,6 +5,14 @@
     align-items: center;
 }
 
-.experience__project:nth-child(even){
+.experience__project--child:nth-child(even){
     flex-direction: row-reverse;
+}
+
+@media screen and (max-width:780px) {
+    .experience__project--child:nth-child(n){
+        flex-direction: column; 
+        align-items: center;
+        justify-content: stretch;
+    }
 }

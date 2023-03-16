@@ -81,7 +81,7 @@ window.onload= function(){
     }
 
     function patternMatch(input){
-        let pattern = /^(?=\w[a-zA-Z]).{5,20}$/ig;
+        let pattern = /^(?=\w[a-zA-Z]).{5,300}$/ig;
         let input_value = input.value;
         let message_error = pattern.test(input_value)?"":"Se adminten maximo 300 caracteres"; 
         input.setCustomValidity(message_error);

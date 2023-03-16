@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edgar Esquivel Lujan</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/head.css">
+    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/title.css">
-    <link rel="stylesheet" href="./css/menu/menu.css">
-    <link rel="stylesheet" href="./css/menu/menu__list.css">
-    <link rel="stylesheet" href="./css/menu/menu__item.css">
-    <link rel="stylesheet" href="./css/menu/menu__link.css">
+
+    <link rel="stylesheet" href="./css/check-nav/check-nav__input.css">
+    <link rel="stylesheet" href="./css/check-nav/check-nav__label.css">
+    <link rel="stylesheet" href="./css/check-nav/check-nav__icon.css">
+
+    <link rel="stylesheet" href="./css/navbar/navbar.css">
+    <link rel="stylesheet" href="./css/navbar/navbar__list.css">
+    <link rel="stylesheet" href="./css/navbar/navbar__item.css">
+    <link rel="stylesheet" href="./css/navbar/navbar__link.css">
+
+
     <link rel="stylesheet" href="./css/print.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/about-me/about-me.css">
@@ -60,22 +67,27 @@
     <link rel="stylesheet" href="./assets/fonts/icoons.css">
 
 
-    <!--    link:css[href="./css/menu/"]*3    -->
+    <!--    link:css[href="./css/navbar/"]*3    -->
 
     <script src="./js/validacion__form.js" async type=""></script>
 
 </head>
 <body>
-    <header class="head head--variant">
+    <header class="header header--variant">
         <h1 class="title">Edgar Mauricio Esquive Lujan</h1>
-        <nav class="menu menu--variant">
-            <ul class="menu__list">
-                <li class="menu__item"><a href="#about-me" class="menu__link">Sobre mi</a></li>
-                <li class="menu__item"><a href="#hobbies" class="menu__link">Pasa tiempo</a></li>
-                <li class="menu__item"><a href="#skills" class="menu__link">Habilidades</a></li>
-                <li class="menu__item"><a href="#education" class="menu__link">Formacion</a></li>
-                <li class="menu__item"><a href="#experience" class="menu__link">Proyectos</a></li>
-                <li class="menu__item"><a href="#contact" class="menu__link">Contacto</a></li>
+        
+        <nav class="navbar navbar--variant navbar--active">
+            <input type="checkbox" name="checkNav" id="activeNav" class="check-nav__input">
+            <label for="activeNav" class="check-nav__label check-nav__label--active">
+                <i class="check-nav__icon"></i>
+            </label>
+            <ul class="navbar__list navbar__list--active">
+                <li class="navbar__item"><a href="#about-me" class="navbar__link">Sobre mi</a></li>
+                <li class="navbar__item"><a href="#hobbies" class="navbar__link">Pasa tiempo</a></li>
+                <li class="navbar__item"><a href="#skills" class="navbar__link">Habilidades</a></li>
+                <li class="navbar__item"><a href="#education" class="navbar__link">Formacion</a></li>
+                <li class="navbar__item"><a href="#experience" class="navbar__link">Proyectos</a></li>
+                <li class="navbar__item"><a href="#contact" class="navbar__link">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -178,7 +190,7 @@
         </section>
         <section id="education" class="main__container education education--variant">
             <h2 class="education__title">Formación Académica</h2>
-            <ul class="education__list">
+            <ul class="education__list education__list--variant">
                 <li class="education__item">
                     <figure class="education__card">
                         <a href="https://www.oracle.com/mx/education/oracle-next-education/" target="_blank">
@@ -212,7 +224,7 @@
             </ul>
         </section>
         <section id="experience" class="main__container experience experience--variant">
-            <div class="experience__project">
+            <div class="experience__project experience__project--child">
                 <img src="./assets/image/encriptadortxt.png" alt="imagen proyecto encriptador de texto" class="experience__image">
                 <div class="experience__card">
                     <h4 class="experience__title">Encriptador de texto</h4>
@@ -221,7 +233,7 @@
                     <a href="https://edgarmel.github.io/encirptador-alura/" target="_blank" class="experience__link">Ver demo</a>
                 </div>
             </div>
-            <div class="experience__project">
+            <div class="experience__project experience__project--child">
                 <img src="./assets/image/encriptadortxt.png" alt="imagen proyecto encriptador de texto" class="experience__image">
                 <div class="experience__card">
                     <h4 class="experience__title">Encriptador de texto</h4>
@@ -230,7 +242,7 @@
                     <a href="" class="experience__link">Ver demo</a>
                 </div>
             </div>
-            <div class="experience__project">
+            <div class="experience__project experience__project--child">
                 <img src="./assets/image/encriptadortxt.png" alt="imagen proyecto encriptador de texto" class="experience__image">
                 <div class="experience__card">
                     <h4 class="experience__title">Encriptador de texto</h4>
@@ -241,7 +253,7 @@
             </div>
         </section>
         <section id="contact" class="main__container contact contact--variant">
-            <div class="contact__image"></div>
+            <div class="contact__image contact__image--variant"></div>
             <form action="" class="contact__form" autocomplete="off">
                 <fieldset class="contact__set">
                     <input type="text" name="name" id="name" class="contact__input" placeholder="nombre" pattern="^[A-Za-z]{3,50}?" required data-type="name">
@@ -259,7 +271,7 @@
                     <span class="contact__alert">El campo no puede estar vacio</span>
                   </fieldset>
                   <fieldset class="contact__set">
-                    <textarea name="message" id="message" cols="30" rows="10" class="contact__input contact__input--message" placeholder="Escribe aqui un mensaje"  maxlength="300" pattern="[a-z]{5,50}" required data-type="message"></textarea>
+                    <textarea name="message" id="message" class="contact__input contact__input--message" placeholder="Escribe aqui un mensaje"  maxlength="300" pattern="[a-z]{5,50}" required data-type="message"></textarea>
                     <label for="message"class="contact__label">Escriba aqui un mensaje</label>
                     <span class="contact__alert">El campo no puede estar vacio</span>
                   </fieldset>

@@ -1,0 +1,25 @@
+.navbar{
+    flex-shrink: 2;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar--variant{
+    color: var(--txt-color-ligth);
+}
+.navbar--scroll{
+    justify-content: center;
+    background: var(--bkg-color-dark);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+    filter: opacity(.87);
+}
+
+@media screen and (max-width:780px) {
+    .navbar--active{
+        font-size: .7rem;
+    }
+}

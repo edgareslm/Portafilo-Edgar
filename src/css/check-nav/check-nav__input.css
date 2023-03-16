@@ -1,0 +1,13 @@
+.check-nav__input{
+    display: none;
+}
+
+@media screen and (max-width:780px) {
+    .check-nav__input:checked + .check-nav__label .check-nav__icon::after{
+        content: "\26CC";
+    }
+    
+    .check-nav__input:checked ~ .navbar__list--active{
+        display: flex;
+    }
+}

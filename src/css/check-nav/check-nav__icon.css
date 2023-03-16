@@ -1,0 +1,8 @@
+.check-nav__icon{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-style: normal;
+}
+.check-nav__icon::after{
+    content: "\2630";
+}
